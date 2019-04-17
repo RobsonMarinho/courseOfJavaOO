@@ -1,4 +1,4 @@
-package course;
+package apresentacaoDaLinguagemJavaETopicosBasicos;
 
 public class ProgramaStringObjects {
 

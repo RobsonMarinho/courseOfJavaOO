@@ -1,10 +1,8 @@
 //Declaração de pacote
-package course;
-
-import java.util.Scanner;
+package apresentacaoDaLinguagemJavaETopicosBasicos;
 
 //Criando a classe
-public class Program {
+public class TiposPrimitivosEmJava {
 	// Criando o main
 	public static void main(String[] args) {
 
