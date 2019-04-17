@@ -22,8 +22,9 @@ public class SaidaDeDadosEmJava {
 										// americano
 		System.out.printf("%.4f%n", balance);
 		System.out.println("------------------------------------");
-		System.out.printf("%s is %d years old, gender %c, and got balance = %.2f bitcoins%n", name, age, gender, balance); // Var number = %s && var
-													// number = %d
+		System.out.printf("%s is %d years old, gender %c, and got balance = %.2f bitcoins%n", name, age, gender,
+				balance); // Var number = %s && var
+		// number = %d
 
 	}
 
