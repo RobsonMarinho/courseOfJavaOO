@@ -18,10 +18,13 @@ public class Program {
 		double price = sc.nextDouble();
 		Products products = new Products(name, price);
 
-		System.out.println();
-		System.out.println("Product data: " + products);
+		products.setName("Computer");
+		System.out.println("Updated name: " + products.getName());
+		products.setPrice(1200.00);
+		System.out.println("Update price : " + products.getPrice());
 
 		System.out.println();
+		System.out.println("Product data: " + products);
 		System.out.println("Enter the number of products to be added in stock: ");
 		int quantity = sc.nextInt();
 		products.addProducts(quantity);
